@@ -1,2 +1,2 @@
 # ArmadilloFlattening
-Converts a 3D mesh to 2D in an optimized way
+Experimented with a real life armadillo sculpture scanned using a Cyberware 3030 MS 3D scanner at Stanford University. The sculpture is available as part of their 3D Scanning Repository, and is a very dense 3D mesh consisting of 172974 vertices! Used 3D Binary mesh loaded from Plyfile and converted into a Pandas dataframe for your ease of manipulation. Reduced the dimensionality from three to two using PCA and RandomizedPCA to cast a shadow of the data onto its two most important principal components. Then rendered the resulting 2D scatter plot.
